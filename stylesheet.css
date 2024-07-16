@@ -119,7 +119,9 @@ p {
     font-variant: small-caps; }
   p.no-indent {
     text-indent: 0; }
-
+p.first-para::firstletter{
+  font-size:2em;
+}
 .no-hyphens {
   hyphens: none !important;
   -moz-hyphens: none !important;
